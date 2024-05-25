@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Carousel</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <style>
+    /* Custom styles */
+    .team-member {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #f8f9fa; /* Set background color */
+      padding: 5px;
+      border-radius: 10px;
+    }
+    .team-member img {
+      width: 350px; /* Set image width */
+      height: 350px; /* Set image height */
+      border-radius: 50%;
+      margin-bottom: 15px;
+      display: block; /* Ensure image is centered */
+      margin-left: auto; /* Center image horizontally */
+      margin-right: auto; /* Center image horizontally */
+    }
+    .team-member h4,
+    .team-member p {
+      text-align: center; /* Align text center */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container py-5">
+  <h2 class="text-center mb-4">Experienced Team Members</h2>
+  <div id="teamCarousel" class="carousel">
+    <!-- Team member items -->
+    <div class="team-member">
+      <img src="img/team-1.jpg" alt="Team Member 1">
+      <h4>John Doe</h4>
+      <p>Designation</p>
+    </div>
+    <div class="team-member">
+      <img src="img/team-2.jpg" alt="Team Member 2">
+      <h4>Jane Doe</h4>
+      <p>Designation</p>
+    </div>
+    <div class="team-member">
+      <img src="img/team-3.jpg" alt="Team Member 3">
+      <h4>Michael Smith</h4>
+      <p>Designation</p>
+    </div>
+     <div class="team-member">
+      <img src="img/team-2.jpg" alt="Team Member 2">
+      <h4>Jane Doe</h4>
+      <p>Designation</p>
+    </div>
+    <!-- Add more team member items here -->
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#teamCarousel').slick({
+      slidesToShow: 3, // Show three slides at a time
+      slidesToScroll: 1, // Scroll one slide at a time
+      centerMode: true, // Enable center mode
+      centerPadding: '10px', // Add space on the sides of the active slide
+      focusOnSelect: true, // Focus on the selected slide
+      autoplay: true, // Automatically move to the next slide
+      autoplaySpeed: 2000, // Slide change interval in milliseconds
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1, // Show one slide at a time on smaller screens
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  });
+</script>
+</body>
+</html>

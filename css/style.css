@@ -621,3 +621,70 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+    /* Custom styles */
+    .team-member {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f8f9fa; /* Set background color */
+        padding: 5px;
+        border-radius: 10px;
+      }
+      .team-member img {
+        width: 200px; /* Set image width */
+        height: 200px; /* Set image height */
+        border-radius: 50%;
+        margin-bottom: 15px;
+        display: block; /* Ensure image is centered */
+        margin-left: auto; /* Center image horizontally */
+        margin-right: auto; /* Center image horizontally */
+      }
+      .team-member h4,
+      .team-member p {
+        text-align: center; /* Align text center */
+      }
+  
+
+      /* about us css */
+      .position-relative {
+  position: relative;
+  height: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;  /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;  /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+}
+.position-relative1 {
+  position: relative;
+  height: 100%;
+  background: linear-gradient(to right, #6e5bdd 0%, #a497e5 30%, #d57ce9 70%, #d65a8c 100%);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .position-relative {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .top-left, .bottom-right {
+      position: static;
+      width: 48%; /* Adjust as needed */
+      max-width: 48%;
+  }
+}
+  
