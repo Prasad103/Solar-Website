@@ -688,3 +688,46 @@
   }
 }
   
+/* advantage page css */
+.item-post h1.post-title
+{
+    color: #000;
+    font-size: 31px;
+    line-height: 1.5em;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.responsive-three-column-grid > * {
+    padding: 1rem;
+}
+.post-body h1, .post-body h2 {
+    font-size: 24px;
+}
+
+.post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6, post-body h1 {
+    color: #000;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.item-post .post-body {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8em;
+    overflow: hidden;
+    padding: 20px 0 0;
+    margin: 0;
+    /* color:#1A2A36 ; */
+}
+
+.column {
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.column:hover {
+    transform: scale(1.1); /* Scale the element by 1.5 on hover */
+}
