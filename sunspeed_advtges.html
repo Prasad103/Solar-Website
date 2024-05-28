@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Solartec - Renewable Energy Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        /* Ensure full width and remove extra margins and padding */
+        body, html {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container, .container-fluid {
+            width: 100% !important;
+            max-width: 100% !important;
+            padding: 10px;
+        }
+
+        /* .responsive-three-column-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        } */
+
+        /* .responsive-three-column-grid > div {
+            flex: 1;
+            min-width: 30%;
+            box-sizing: border-box;
+            padding: 10px;
+        } */
+
+        /* .responsive-three-column-grid img {
+            width: 100%;
+            height: auto;
+        } */
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>123 Street, New York, USA</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <h2 class="m-0 text-primary">Solartec</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link active">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="project.html" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+   <hr>
+    <main class='main-wrapper'>
+        <div class='main section' id='main'><div class='widget Blog' data-version='2' id='Blog1'>
+        <div class='blog-posts hfeed container item-post-wrap'>
+        <article class='blog-post hentry item-post'>
+        <script type='application/ld+json'>{
+          "@context": "http://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.sunspeed.in/p/the-sun-speed-advantages.html"
+          },
+          "headline": "The Sun Speed Advantages","description": "PREMIUM SOLAR SYSTEMS        We offer the best in quality and reliability when it comes to solar solutions.              ...","datePublished": "2024-01-24T10:07:00-08:00",
+          "dateModified": "2024-01-24T21:50:23-08:00","image": {
+            "@type": "ImageObject","url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiugRaFU-d-4y5VHkybiju_VlZm0gUggcYVHkKW5AMh1znnjJms2C_oLcb2iVN-apSOyjjSpHXU7z9xJiy1DBR3A_8drq0gqIKOdnWULilnLEuhZiJMzyMZ6c_o7wasslURFcI0Uj9OCQG8VuT_pPyO2wPBT72PaztuJcjyYDAbMZDg6KWfr6zsGb0c1hXn/w1200-h630-p-k-no-nu/advantage_icon_1-modified.png",
+            "height": 630,
+            "width": 1200},"publisher": {
+            "@type": "Organization",
+            "name": "Blogger",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60",
+              "width": 206,
+              "height": 60
+            }
+          },"author": {
+            "@type": "Person",
+            "name": "Mera Market LLP"
+          }
+        }</script>
+        <h1 class='post-title mt-5'>
+        The Sun Speed Advantages
+        </h1>
+        <div class='post-body post-content'>
+        <center><div class="responsive-three-column-grid">
+            <div>
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiugRaFU-d-4y5VHkybiju_VlZm0gUggcYVHkKW5AMh1znnjJms2C_oLcb2iVN-apSOyjjSpHXU7z9xJiy1DBR3A_8drq0gqIKOdnWULilnLEuhZiJMzyMZ6c_o7wasslURFcI0Uj9OCQG8VuT_pPyO2wPBT72PaztuJcjyYDAbMZDg6KWfr6zsGb0c1hXn/s1600/advantage_icon_1-modified.png" />
+              <h2>PREMIUM SOLAR SYSTEMS</h2>
+              <p>We offer the best in quality and reliability when it comes to solar solutions.</p>
+              
+            
+              
+          </div>
+            <div class="mt-2">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLQ5p7LrUsHEnTsoWllrzfF643B5fjGwhfDEzo2Mgs8q_UxarXMy_CY0OXPo7b8IuT82vSovCqo_Qb0p20PxKOENsz0si2zermqIweqtNAtbbuKgLx5KC_STs2ggQ6rr3wi6Qv0zRBxsq6hD1V1TZ9yPkBayBVVgJmNosfU6FyodXvRSWJBJ6Xv00IuZOv/s1600/advantage_icon_2-modified.png" />
+          <h2>SUNSPEED DEFERRED PAYMENT
+        </h2>
+              <p>Pay 25-30%* upfront and let solar PV system pay the rest by itself.
+        </p>
+          </div>
+            <div>
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiugRaFU-d-4y5VHkybiju_VlZm0gUggcYVHkKW5AMh1znnjJms2C_oLcb2iVN-apSOyjjSpHXU7z9xJiy1DBR3A_8drq0gqIKOdnWULilnLEuhZiJMzyMZ6c_o7wasslURFcI0Uj9OCQG8VuT_pPyO2wPBT72PaztuJcjyYDAbMZDg6KWfr6zsGb0c1hXn/s1600/advantage_icon_1-modified.png" />
+          <h2>SUNSPEED  ASSURED
+        </h2>
+              <p>We provide customers with a 25 year promise of care-free continuous energy generation and regular maintenance.
+        </p>
+          </div>
+        </div>
+                   
+          
+          <br/>
+          <h2 style="color:#bf0000;">SUNSPEED represents YOU throughout your solar journey.</h2>
+          <hr class="dashed" />
+        <p>We provide customers with a 25 year promise of care-free continuous energy generation and regular maintenance.
+        </p>
+          
+          
+        
+          <div class="row">
+          <div class="column" style="background-color:#ff8282;">
+          <img class="wet" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicO6bCTndHXx3QINP75MeBrcdDG2C6FSAqTTiJvbN7y9WfuwxIfGtdoMCd8tJNRd-52dmPsve31kNCLylcUbYihx7-CKT6ICDYKlFZsqjRIZj2w_aIEjdxk44T9kPFuUBiA4DO_uiuNeLvvtxTNo8FGhlVRmgIBA4JoAGQyoaSN4XQmwpWCi85o1sL6YPR/s1600/easy-buying.webp" />
+         
+            <h3>SIMPLIFYING<br/>
+        SOLAR</h3>
+          </div>
+          
+          <div class="column" style="background-color:#a5df8c;">
+            <img class="wet" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggjDX7uS4_g14C4ZO5aduIgqfrb4AMKSBmYgFLJPxQOEeR_4xkdHKQ4FZ7LSL5z5Zof1aSg-WwQfHjnJ7HvoP35MLveCIHcYwdgIU19vuXbqDDw1Hl7cpnJTL5_NCiaUQrOcVvdYIXVlovc1MXc-BsOwxJga4ysP34zw-atnyfp_Hb2yFmrPkM-cD0D0JI/s1600/financing-option.webp" />
+         
+            <h3>EASY<br/>
+        BUYING</h3>
+           
+          </div>
+          
+          <div class="column" style="background-color:#8aaeff;">
+            <img class="wet" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgina_px8urcQw5lktYjFb3tf8sheyy3jn2LgUquOTBsRvtGCSY8fkerG08HF5EzjYbbGPShCUaolBzB_1A2ukI_qIiqomLomMh8QlPy9xwJjTbDI3MsB-yttmJAVgFaOxLYVP-usru4xpGKqRtYmvu0yCibRhxtkWursKj3cH2syXgrUE8MQdXUTLs-8JY/s1600/maintainence.webp" />
+         
+            <h3>FINANCING<br/>
+        OPTIONS</h3>
+          
+          </div>
+          
+          <div class="column" style="background-color:#ffafe3;">
+            <img class="wet" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRkv_7DDCJKDRnrIsQ41zbOR3ysa2b2ZChXe-AG7kmHRCayuySmSjk4wGYwkawMb3pCjtssyIK9oZTc7iUGZBpGjNf9lr-Zi-yRMiq2yeqA39088nyR0jwHRP1iDA1gLSdaQOzbmQJXj6QydwMKVxRNz7UbGy1dfOuRn61udYHf4mVyWkjkX7J_OD9rK8t/s1600/simplyfy-solar.webp" />
+         
+            <h3>PREMIUM<br/>
+        QUALITY</h3>
+          
+          </div>
+          
+          <div class="column" style="background-color:#99e3ef;">
+            <img class="wet" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx24W8NSK3nMXF7z6bdkyjh9nTLBD1MJyXimES3hAtjf-7WocA9ClA15r5n89O5LFdwVWkPY-FtYomdDWDYsilLniEIiWi6csdGGLK2tJuNXqCeCZb6hbwDg7WKkyo2xdMPAXEBcrdhouPos9sekqXRF-LMw740CViXbO2IdCpm8lry0SFmgEYAyqzhH3n/s1600/standrd-quality.webp" />
+         
+            <h3>LIFETIME<br/>
+        SUPPORT</h3>
+           
+          </div>
+        </div>
+          
+          
+          <br/>
+           <br/>
+          <h2 style="color:#bf0000;">Power of three Philosophy
+        </h2>
+          <hr class="dashed" />
+        <p>Our power of three philosophies will help simplify, clarify and quantify the process of connecting to the power of the sun. We&#8217;ll help you find solar enlightenment with our power of three philosophies.
+        
+        </p><br/>
+          <div class="responsive-three-column-grid">
+            <div style="background-color:#1c1c1c;"  class="wow fadeInLeft" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4uVXxZTxYq05_YtEHlO2M6d6aESadXXzZbY-_f7k5Hyz72ZTuiDXmAXM6jd0fJg_bhoYepjDXLE00IqO1gVk71vWTtLSP0P7fnvdmp5wgOkV1Nd4_Tyr8wN_ITNsiYSq__9nsz-QxhbZDBYta_OZyGxT20bDCjY7cbPMujeVJcljX1EmMCzakB4nuj7ZY/s1600/Simplify_edited.webp" />
+              <h2 style="color:white;">SIMPLYFY</h2>
+              <p style="color:white;">We believe in offering a straightforward explanation of how solar works and what is involved in its installation.</p>
+               </div>
+            <div style="background-color:#0fa34a;" class="wow fadeInDown" data-wow-delay="0.5s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZkAb8bq2dUXH0pCURtKe78zIDqHGx0GYCi3JU7LfIuMah5TH9AnZ5Hz-cD-rNFZx0J3ZJ43YRFZytwd3QrdfScDWkq9GNc5PCG1mBUpyhnEZlgcr69ve-RidxZVzDCdj19_8Zcrlz2K1I6-L3ecZyydmIDhlqu48b_0ThurchE99gRPlgVYMj7TA_M9ik/s1600/Clarify_edited.webp" />      
+              
+          <h2 style="color:white;">
+        CLARIFY
+        </h2>
+              <p style="color:white;">We make sure and consider all of the factors involved, to find the best viable &amp; profitable option for your specific needs.
+        
+        
+        </p>
+          </div>
+            <div style="background-color:#1c1c1c;" class="wow fadeInRight" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0AhERnVjFLCT3gNp7-dhF9pb7rhxgXwzhrg7yncnm5vZq4sQ19Z7yqTW5ma3qoLJGFB2EpIUsCP4mnV9DsM8dUvpTQb2xXWfyG9o98vvasTu9DYbcilvUYFoBMmQWZNZQYTIIO3nycP19eC2n2fDUM9OQgvPUk70DkBB91eeDVBkLsNer33WhKyP5cbGo/s1600/Quantify_edited%20%281%29.webp" />
+          <h2 style="color:white;">QUANTIFY
+        </h2>
+              <p style="color:white;">We will always back up our price with real numbers that help you see your total investment and overall profitability.
+        
+        </p>
+          </div>
+        </div>
+          
+          <br/>
+           <br/>
+          <h2 style="color:#bf0000;">Sunspeed Guiding Principles
+        
+        </h2>
+          <hr class="dashed" />
+        <p>Our power of three philosophies will help simplify, clarify and quantify the process of connecting to the power of the sun. We&#8217;ll help you find solar enlightenment with our power of three philosophies.
+        
+        </p><br/>
+          <div class="responsive-three-column-grid">
+            <div style="background-color:#0fa34a;" class="wow fadeInLeft" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqRaxSs06fAXqcSHHzAkHz4Oun-dDt88fcJr99CD0GwQvX1105dUs7ZiiYRhubXZu1wj12zRqF0A1CHTQGuYto-zoMofaO-FK2E57s2GobWSgq3AxHUPBeQqqvjt7wNXSJHIVVl6jsPbPgs_0ybmU543yQZyPbQO42i_seMTKMc7g77DRyyeOobDbGvzaq/s1600/Peace-of-Mind_edited%20%281%29.webp" />
+              <h2 style="color:white;">PEACE OF MIND
+        </h2>
+              <p style="color:white;">Having a competent and reliable service team to do it right the first time safeguards your investment. Our integration and installation is the most efficient in the market, which ensures our customers to have full peace of mind.
+        
+        </p>
+               </div>
+            <div style="background-color:#e1e1e1;" class="wow fadeInDown" data-wow-delay="0.5s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmWw7CtxXdsFRyheAZGvxaY2PHS7lMSp4s5BawwKcgyT28Jcr4iqo_9EaI1TRj59-JGII8Yi79MDH3-3ecu7a0jFIHdWcGznIHW0rPPoHDqci9nrzpbVu3EWorCwnndAlx1nQRnNvLl2Z0kpuGewLjbL6OCBEGeWVXCW3qMEtnTlgrSBxvPiWHNaEIClry/s1600/Customer-First_edited.webp" />      
+              
+          <h2 style="text-transform: uppercase;
+        ">
+        customer first
+        
+        </h2>
+              <p>At the core of what we do is our commitment to always put our customers first. We listen to each of their needs because we believe it&#8217;s the first step in providing the best solution. Leverage our Expertise.
+        
+        
+        </p>
+          </div>
+            <div style="background-color:#0fa34a;" class="wow fadeInRight" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmBVSqMDnwbnAM_AeGQMSd0gtkBfd_cbAGma1Le6CbjVuYIi2ssWr1l1sieiYnmNi6xkGtYCaii4CMpwddXEsYmXnvO1oS14CnFsbXzQqll7LolAiUDAqBcBlxCSAFm8ljtm_dvzwWy5CLWPznP4yW5vTH29Z8ijGvA-ucaLI0BHiM_ZpSNWV26hi8y_CL/s1600/Do-What-We-Say_edited.webp" />
+         <h2 style="color:white; text-transform: uppercase;
+        ">
+        do what we say
+        
+        </h2>
+              <p style="color:white;">We ensure our products and services live up to our promises. Our dedication to excellence is reflected in our 25-year warranty, a benchmark that we stand by to support our customers above and beyond their expectations.
+        
+        
+        
+        </p>
+          </div>
+        </div>
+           <br/>
+           <br/>
+          <h2 style="color:#bf0000;">Unique Product and Services
+        
+        
+        </h2>
+          <hr class="dashed" />
+        <p>Our technology expertise across the solar energy value chain is backed by in-house manufacturing of a comprehensive range of products &#8211; from Solar Modules to structures. While other solar companies cut corners to cut costs, Solarium is committed to maintaining quality while offering competitive pricing. To us, &#8220;Good Enough&#8221; is never the right answer. From inverter to solar panel, to installation, Solarium primary goal today &#8211; as always &#8211; is excellence.
+        
+        
+        </p><br/>
+          <div class="responsive-three-column-grid">
+            <div style="background-color:#1c1c1c;" class="wow fadeInLeft" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga2JcuHtHt9QY-H6ps3jvZ8iRFhBJkUkqy8rNThzYZuHu6c-yrTcViqPrhUTxlQlC63sMBOX_xXSmKSD__lYiMMkzlRTOCv_4Uao_nYhQI-YswRYwTIZk5AomZMymHELD4RgwpnfDD0mKrhpUmYSe3Uxxva1Mdi_07TeCNLf9FRXZBe659F6uWnQisqMLL/s1600/Building-Intellectual-Property_edited_pn.webp" />
+        
+              
+              
+              <h2 style="color:white;">Stringent Quality Checks
+        
+        </h2>
+              <p style="color:white;">Several levels of QA processes provide you with peace of mind and guaranteed results.
+        
+        
+        
+        </p>
+               </div>
+            <div style="background-color:#0fa34a;" class="wow fadeInDown" data-wow-delay="0.5s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinpja9Ja-_oBpd9VAqhxZp1hm5kFsrbhQ10Ohcl8DJeAymRhH__FqF4cKrPJ4OTpp_0Qx7qNEKem4Jm4aJnI0zOHCvX6ljBEPc87uDPOwmeXjGgNY9BEYH2PbOzbyIYbj5q-EKindd-3UJrBgANeuLP_1mr222JONIF-QZTv3Aao4FcjBx5m4eBnpBWDqb/s1600/Dedicated-Support_edited.webp" />      
+              
+          <h2 style="color:white; text-transform: uppercase;
+        ">
+        Future Ready
+        
+        </h2>
+              <p style="color:white;">Our R&amp;D Team is always ready with solutions for today and innovations for tomorrow.
+        
+        
+        
+        
+        </p>
+          </div>
+            <div style="background-color:#1c1c1c;" class="wow fadeInRight" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSOveNkJbc_-JDDHkmJ_D7viV6cobIbpeB68fweEAAKPhl0Ek__UvXj5mtU4a5QAsbaqa8CAbS2OHmMOru9VsXf7F4iRd4Fg4FseKt-1ncDMYBlv_PONxVBPKsUq2jLNc0l8dTV6Ey4PYn-tzghQd9rI6Dw3gcFKh9GBet6WqzEXqdl2ofIKctlw8nngI3/s1600/Future-Ready_edited.webp" />
+         <h2 style="color:white; text-transform: uppercase;
+        ">
+        Dedicated Support
+        
+        </h2>
+              <p style="color:white;">Anytime, any day, we are always there for you. Complete peace of Mind.
+        
+        
+        
+        
+        
+        </p>
+          </div>
+        </div>
+          
+          <br/>
+          
+          
+          
+           <div class="responsive-three-column-grid">
+            <div style="background-color:#1c1c1c;" class="wow fadeInLeft" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDaTE1GmxyTCiLgIsql40bNVrIatOoMVprItf95UhAdK5OKQV5ue2i2JsuJpmteXYwPM8TOF7Nmjp-sTx5S74l383m0ZUb5i0JnvtR4B7O-QogWMmGTnKbGrUCMPbDL4oqyTeAGmbCGERyH1o0HGSJemVQIcwL9h70DnDk1E_t4Fa6AvtIwS4TEt_1Vw94/s1600/Safety_edited.webp" />
+        
+              
+              
+              <h2 style="color:white;">Building Intellectual Property
+        
+        
+        </h2>
+              <p style="color:white;">We take tremendous pride in our innovations &#8211; not only in terms of new products but also in services.
+        </p>
+               </div>
+            <div style="background-color:#0fa34a;" class="wow fadeInUp" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_YeEoYFBRWgWu6rsziSy0BTXuqNv9LZ065-wzc070Q_So77581pbev8k6ZlFP3tqjqGb4kLGMnLTLy1CglXm9o0MFLrjU7aQ1TNP8FpmZ1vQHeFaLSRr_YeEn2sWXEoLmoSLf9zdbHIm3s1RgTBR6cln9JTHgucbpQU17f9qtwtuVcSBredQtlbAkavA/s1600/Stringent-Quality-Checks_edited.webp" />      
+              
+          <h2 style="color:white; text-transform: uppercase;
+        ">
+        Strong Presence
+        
+        
+        </h2>
+              <p style="color:white;">We have a strong pan India presence with a proven track record of installing high-quality renewable energy assets.
+        
+        
+        
+        
+        
+        
+        </p>
+          </div>
+            <div style="background-color:#1c1c1c;" class="wow fadeInRight" data-wow-delay="0.3s">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-soeGaQqtuRO74Vnig5IrVogX7gLAuX_9WR4o7yK28yM7NoSvjqnnlqp7pxQ_G0Zjv4_kf0a0pPCfL7LN6jL0XanfrutQAqcv4VcaLxJNa7CpcgehmgA59UOkJyMKPpLJn7xAGhOvZEdl4jtAYWWXBD8TCQZjK2gMy1OAKD5Q8bG9bR5v7XhQUF45k9Ut/s1600/Strong-Presence_edited.webp" />
+         <h2 style="color:white; text-transform: uppercase;
+        ">
+        Safety
+        
+        </h2>
+              <p style="color:white;">Strict adherence to all relevant safety guidelines and employment of experienced personnel for the job.
+        
+        
+        
+        
+        
+        
+        
+        </p>
+          </div>
+        </div>
+          
+          
+        </center>
+        <style>
+          * {
+          box-sizing: border-box;
+        }
+        .wet
+          {
+            background: white;
+            padding: 28px;
+            border-radius: 52px;
+        }
+        /* Container for flexboxes */
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+        /* Create four equal columns */
+        .column {
+          flex: 20%;
+          padding: 20px;
+        }
+        
+        /* On screens that are 992px wide or less, go from four columns to two columns */
+        @media screen and (max-width: 992px) {
+          .column {
+            flex: 50%;
+          }
+        }
+        
+        /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .row {
+            flex-direction: column;
+          }
+        }
+          
+          /* container */
+        .responsive-three-column-grid {
+            display:block;
+        }
+        #content-wrapper
+          {
+           background:#fcfcff !important; 
+          }
+        /* columns */
+        .responsive-three-column-grid > * {
+            padding:1rem;
+        }
+        hr.dashed {
+         border-top: 1px dashed;
+         border-bottom: none;
+          width:50%;
+          color: red;
+        }
+          .item-post h1.post-title
+          {
+           text-align:center; 
+          }
+        /* tablet breakpoint */
+        @media (min-width:768px) {
+            .responsive-three-column-grid {
+                display: grid;
+                grid-auto-rows: 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+        </style>
+        </div>
+        </article>
+        <div class='blog-post-comments'>
+        <script type='text/javascript'>
+                        var disqus_blogger_current_url = "https://www.sunspeed.in/p/the-sun-speed-advantages.html";
+                        if (!disqus_blogger_current_url.length) {
+                          disqus_blogger_current_url = "https://www.sunspeed.in/p/the-sun-speed-advantages.html";
+                        }
+                        var disqus_blogger_homepage_url = "https://www.sunspeed.in/";
+                        var disqus_blogger_canonical_homepage_url = "https://www.sunspeed.in/";
+                      </script>
+        <section class='comments' data-num-comments='0' id='comments'>
+        <a name='comments'></a>
+        </section>
+        </div>
+        </div>
+        </div></div>
+        <script src='https://raw.githack.com/ililio/i/main/i.js' type='text/javascript'></script>
+
+        </main>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Project Gallery</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#teamCarousel').slick({
+      slidesToShow: 3, // Show three slides at a time
+      slidesToScroll: 1, // Scroll one slide at a time
+      centerMode: true, // Enable center mode
+      centerPadding: '10px', // Add space on the sides of the active slide
+      focusOnSelect: true, // Focus on the selected slide
+      autoplay: true, // Automatically move to the next slide
+      autoplaySpeed: 1500, // Slide change interval in milliseconds
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1, // Show one slide at a time on smaller screens
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  });
+</script>
+
+</body>
+
+</html>
